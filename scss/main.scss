@@ -105,7 +105,7 @@ header {
 
 .home-intro {
   padding: 50vh 0;
-  background: #123 url(https://unsplash.it/900);
+  background: #123 url(https://i.imgur.com/BjLznmZ.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   color: white;
@@ -210,4 +210,29 @@ header {
 .list-unstyled {
   list-style: none;
   line-height:1.75;
+}
+
+.main-title {
+  font-size: 3.5em;
+}
+
+.flex {
+  display: flex;
+  div {
+    flex:1;
+  }
+}
+
+.logo-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align:center;
+}
+
+.text-lighter {
+  font-weight: lighter;
+}
+
+.border-radius {
 }
